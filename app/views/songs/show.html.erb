@@ -1,0 +1,5 @@
+<h1><%= @song.title %></h1>
+<%#show page links to the artist's songs by title%>
+
+<h3><%= link_to("#{@song.artist_name} - #{@song.title}", artist_path(@song.artist)) %></h3>
+    
